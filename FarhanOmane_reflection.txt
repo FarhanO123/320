@@ -1,0 +1,12 @@
+Farhan's reflection on the challenges faced and lessons learned during the process
+
+One of my biggest challegnes of this entire process was time. HTML and CSS are not inherently challenging to learn but
+to learn then to build a professional and functioning website felt like a lot. I dedicated a time everyday and still 
+it took until the very last minutes to complete everything accordingly. Another big issue I ran into was formatting. 
+Getting the images to one side and text to the other within a box without everything floating every took a lot.
+I watched a lot of youtube videos on others doing it and to no avail. W3 schools helped a little but it really isn't
+helpful for specific things you want to do. It teaches a lot of different things to do in HTML but whatever I am trying
+to do is never there. This assignment was like learning the basics of swimming then being put into the deep end of a pool.
+
+
+It did push me to learn a lot though that I will apply to future assignments!
