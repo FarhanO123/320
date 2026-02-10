@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhan's Travel Destination Website</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #8a8a8a;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            background: white;
+            padding: 10px 20px;
+        }
+
+        .navdiv {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo a {
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        ul {
+            display: flex;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        li a {
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* MAIN CONTAINER */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+
+            display: flex;
+            gap: 40px;
+            align-items: flex-start;
+        }
+
+        /* LEFT: TEXT */
+        .text {
+            flex: 2; /* give text MORE space */
+        }
+
+        .text h1 {
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        .text p {
+            line-height: 1.7;
+            font-size: 16px;
+            margin: 0;
+        }
+
+        /* RIGHT: IMAGES */
+        .images {
+            flex: 1; /* images get LESS space */
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .image-card {
+            background: #f7f7f7;
+            padding: 8px;
+            border-radius: 10px;
+        }
+
+        .image-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+        }
+
+        .caption {
+            margin-top: 6px;
+            font-size: 12px;
+            color: #555;
+            text-align: center;
+        }
+
+        /* MOBILE */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="navdiv">
+        <div class="logo">
+            <a href="#">Farhan's Travel Website</a>
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page2.html">About</a></li>
+            <li><a href="page3.html">Destinations</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="text">
+        <h1 style="text-align: center;">Socotra Island, Yemen</h1>
+        <p>
+            Socotra Island, sitting out in the Arabian Sea, feels less like a normal travel destination and more like another planet. 
+            The island is famous for its surreal landscape, especially the Dragon’s Blood Trees,
+            which look straight out of a sci-fi movie and are tied to local legends about ancient battles and healing magic because of their deep red sap. 
+            Beyond the trees, Socotra is packed with massive sand dunes, limestone caves, and hidden freshwater pools that people hike, camp, and swim in.
+            <br><br>
+            There’s a lot to actually do on the island too. Visitors go trekking through the Hajhir Mountains, swimming in natural pools like Detwah Lagoon, and snorkeling in coral reefs that are still largely untouched. 
+            At night, camping under the stars is a huge part of the experience since there’s almost no light pollution. Socotra also has a strong oral tradition, with locals passing down folklore, poetry, and stories that explain the island’s strange plants and landscapes. 
+            Between the adventure, the culture, and the unreal scenery, Socotra isn’t just a place you visit, it’s a place that feels completely different from anywhere else on Earth.
+        </p>
+    </div>
+
+    <div class="images">
+
+    <figure class="image-card">
+        <img src="images/cow tree.jpg" alt="Dragon’s Blood Trees on Socotra Island at sunset"> <!--from pexels.com (renamed) -->
+        <figcaption class="caption">Blood Trees and the Cow</figcaption>
+    </figure>
+
+    <figure class="image-card">
+        <img src="images/pexels-earth-photart-2149767641-33825932.jpg" alt="Man standing by the sea in Socotra, Yemen"> <!-- Also Pexels.com just not renamed -->
+        <figcaption class="caption">Local resident overlooking the sea in Socotra</figcaption>
+    </figure>
+
+<footer style="text-align: center; margin-top: 20px;">
+  <a href="mailto:farhan.omane@maine.edu">Contact Me</a>
+</footer>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

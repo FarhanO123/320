@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhan's Travel Destination Website</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #8a8a8a;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            background: white;
+            padding: 10px 20px;
+        }
+
+        .navdiv {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo a {
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        ul {
+            display: flex;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        li a {
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* MAIN CONTAINER */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+
+            display: flex;
+            gap: 40px;
+            align-items: flex-start;
+        }
+
+        /* LEFT: TEXT */
+        .text {
+            flex: 2; /* give text MORE space */
+        }
+
+        .text h1 {
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        .text p {
+            line-height: 1.7;
+            font-size: 16px;
+            margin: 0;
+        }
+
+        /* RIGHT: IMAGES */
+        .images {
+            flex: 1; /* images get LESS space */
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .image-card {
+            background: #f7f7f7;
+            padding: 8px;
+            border-radius: 10px;
+        }
+
+        .image-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+        }
+
+        .caption {
+            margin-top: 6px;
+            font-size: 12px;
+            color: #555;
+            text-align: center;
+        }
+
+        /* MOBILE */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="navdiv">
+        <div class="logo">
+            <a href="#">Farhan's Travel Website</a>
+        </div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page2.html">About</a></li>
+            <li><a href="page3.html">Destinations</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="text">
+        <h1 style="text-align: center;">About Me</h1>
+        <p>
+            I am Farhan and I have visted a couple countries in my day. Most of my travels have been to Africa but I got to see Turkey once during a flight layover. 
+            My experiences in other countries are limited to Kenya, Somalia and the United states. I have been to Kenya and Somalia once I have been to the 
+            United States some cities some that are noteworthy and others that are not. 
+            Beneath is an Image of a picture from one of my Travels.
+            <br><br>
+            While my international travel is still limited, I’ve spent time in several cities across the United States, some more memorable than others. Each place I’ve visited has shaped how I see travel not just as sightseeing, but as a way to understand how people live in different parts of the world. 
+            To the right is an aerial photo taken during one of my travels, showing the city of Nairobi, Kenya
+
+        </p>
+    <footer style="text-align: center; margin-top: 20px;">
+        <a href="mailto:farhan.omane@maine.edu">Contact Me</a>
+    </footer>
+    </div>
+
+    <div class="images">
+    <figure class="image-card">
+        <img src="images/IMG_5722.JPG" alt="Aerial view of Nairobi, Kenya"> <!-- from my travels in my camera roll -->
+        <figcaption class="caption">Aerial photo of Nairobi, Kenya</figcaption>
+    </figure>
+</div>
+</div>
+</body>
+</html>

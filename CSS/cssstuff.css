@@ -1,0 +1,22 @@
+body {
+    background-color: grey;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    color: rgb(7, 3, 10);
+    text-overflow: ellipsis;
+    font-family: 'Times New Roman', Times, serif;
+  
+
+}
+
+.container {
+
+    background-color: aliceblue;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
